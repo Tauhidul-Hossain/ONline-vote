@@ -1,5 +1,5 @@
-# Online-voting-system-OVS
-# Using PHP 
+Online-voting-system-OVS
+Using PHP 
 install xampp/wampp
 install python 3.7
 pip install opencv
