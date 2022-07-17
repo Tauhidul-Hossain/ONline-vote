@@ -1,10 +1,10 @@
 <style>
 	.logo {
     margin: auto;
-    font-size: 16px;
+    font-size: 20px;
     /*//background: black;*/
-    padding: 5px 10px;
-    border-radius: 40% 60%;
+    padding: 5px 11px;
+    border-radius: 50% 50%;
     color: #000000b3;
 }
 </style>

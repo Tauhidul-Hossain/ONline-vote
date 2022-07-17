@@ -3,7 +3,7 @@
         z-index: 1000;
 	    position: absolute;
 	    background-color: #ffffff;
-	    border: 1px solid #0000001c;
+	    border: 2px solid #0000001c;
 	    border-radius: 5px;
 	    padding: 8px;
 	    min-width: 13vw;

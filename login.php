@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="width=device-width, initial-scale= 0.5" name="viewport">
 
   <title>Login | Voting System</title>
  	
@@ -18,34 +18,33 @@ header("location:index.php?page=home");
 </head>
 <style>
 	body{
-		width: 50%;
+		width: 100%;
 	    height: calc(100%);
 	    /*background: #007bff;*/
 	}
 	main#main{
-		width:50%;
+		width:100%;
 		height: calc(100%);
 		background:white;
-	}
-	#login-left{
-		position: absolute;
-		left:0%;
-		width:50%;
-		height: calc(100%);
-		background:white;
-		display: flex;
-		align-items: left;
 	}
 	#login-right{
 		position: absolute;
-		right:0%;
-		width:50%;
+		right:0;
+		width:40%;
 		height: calc(100%);
 		background:white;
 		display: flex;
 		align-items: center;
 	}
-	
+	#login-left{
+		position: absolute;
+		left:0;
+		width:60%;
+		height: calc(100%);
+		background:white;
+		display: flex;
+		align-items: center;
+	}
 	#login-right .card{
 		margin: auto
 	}
@@ -65,8 +64,7 @@ header("location:index.php?page=home");
   <main id="main" class=" alert-info">
   		<div id="login-left">
   			<div class="logo">
-  				<h1  style="background-color:white;"><strong>Online Based Student Election System</strong>
-  			    </h1>
+  				<h1>CHMSC Online Voting System</h1>
   				<img src="chmsc.png" alt="..." width="100%">
   			</div>
   		</div>
